@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import UseEffectHook from "./useEffect";
+import {LoadData} from "./loadData";
 
 ReactDOM.render(
     <React.StrictMode>
-        <UseEffectHook/>
+        <LoadData/>
     </React.StrictMode>,
     document.getElementById('root')
 );
